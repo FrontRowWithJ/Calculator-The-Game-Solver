@@ -96,7 +96,8 @@ const teleport = (n, start, end) => {
   }
   return +s.join("");
 };
-
+const sortForward = (n) => ("" + n).split("").sort();
+const sortBackward = (n) => ("" + n).split("").sort((a, b) => +b - +a);
 console.log(teleport(1000, 3, 1));
 
 const shiftRight = (a) => {
@@ -167,6 +168,10 @@ const getFunc = (symbol) => {
       return [false, reverse];
     case "inv":
       return [false, inv];
+    case "sort>":
+      return [false, sortForward];
+    case "sort<":
+      return [false, sortBackward];
     default:
       return [false, () => {}];
   }
