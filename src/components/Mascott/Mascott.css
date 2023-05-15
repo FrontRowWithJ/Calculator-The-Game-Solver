@@ -1,0 +1,97 @@
+.mascott.face {
+  aspect-ratio: 64 / 40;
+  width: 100px;
+  border: 5px solid #393b31;
+  position: relative;
+  border-radius: 20px;
+  background-color: #a6b7a4;
+  margin: 1rem;
+}
+
+.mascott * {
+  position: absolute;
+}
+
+.mascott .eye {
+  border-radius: 100vh;
+  background-color: #393b31;
+  top: 30%;
+  left: 10%;
+}
+
+.eye.happy {
+  width: 20px;
+  aspect-ratio: 1 / 1;
+}
+
+.eye.sad {
+  width: 25px;
+  height: 5px;
+}
+
+.mascott.face .eye:nth-child(2) {
+  left: unset;
+  right: 10%;
+}
+
+.mascott .pupil {
+  border-radius: 100%;
+  aspect-ratio: 1 / 1;
+  background-color: #a6b7a4;
+  right: 1.1px;
+  top: 1.1px;
+  width: 10px;
+}
+
+.pupil.sad {
+  display: none;
+}
+
+.tear {
+  width: 100%;
+  top: 100%;
+  height: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.tear > div {
+  position: relative;
+  height: 100%;
+  background-color: #393b31;
+  width: 5px;
+  border-radius: 0 0 1rem 1rem;
+}
+
+.mascott .mouth.happy {
+  top: 50%;
+  aspect-ratio: 2 / 1;
+  width: 30%;
+  background-color: #393b31;
+  left: 35%;
+  border-radius: 0 0 50vw 50vw;
+}
+
+.mascott .mouth.sad {
+  top: 50%;
+  aspect-ratio: 1 / 1;
+  width: 30%;
+  background-color: transparent;
+  left: 35%;
+  border-radius: 50vw;
+  border: 5px solid;
+  border-color: #393b31 transparent transparent transparent;
+}
+
+.mascott .tongue {
+  top: 25%;
+  aspect-ratio: 2 / 1;
+  width: 50%;
+  background-color: #a6b7a4;
+  left: 25%;
+  border-radius: 50vw 50vw 0 0;
+}
+
+.tongue.sad {
+  display: none;
+}

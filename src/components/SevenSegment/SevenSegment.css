@@ -1,0 +1,85 @@
+.seven-segment-container-wrapper {
+  padding: 0.25rem;
+  transform: skewX(-9deg);
+  cursor: pointer;
+}
+
+.seven-segment-container {
+  width: calc(var(--segment-width) + var(--segment-height));
+  height: calc(var(--segment-width) * 2 + var(--segment-height));
+  background-color: #a6b7a4;
+  position: relative;
+}
+
+.teleport {
+  display: flex;
+  justify-content: center;
+  margin: .25rem 0rem;
+}
+
+.segment {
+  position: absolute;
+  width: var(--segment-width);
+  height: var(--segment-height);
+}
+
+.segment svg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.segment.top {
+  top: 0;
+  left: calc(var(--segment-height) / 2);
+}
+
+.segment.top-left {
+  top: calc(var(--segment-height) / 2);
+  left: 0;
+  width: var(--segment-height);
+  height: var(--segment-width);
+}
+
+.segment.top-right {
+  top: calc(var(--segment-height) / 2);
+  right: 0;
+  width: var(--segment-height);
+  height: var(--segment-width);
+}
+
+.segment.middle {
+  top: var(--segment-width);
+  left: calc(var(--segment-height) / 2);
+}
+
+.segment.bottom-left {
+  width: var(--segment-height);
+  height: var(--segment-width);
+  left: 0;
+  bottom: calc(var(--segment-height) / 2);
+}
+
+.segment.bottom-right {
+  width: var(--segment-height);
+  height: var(--segment-width);
+  right: 0;
+  bottom: calc(var(--segment-height) / 2);
+}
+
+.segment.bottom {
+  width: var(--segment-width);
+  height: var(--segment-height);
+  bottom: 0;
+  left: calc(var(--segment-height) / 2);
+}
+
+.cursor {
+  position: absolute;
+  left: 0;
+  bottom: 0 !important;
+  height: fit-content;
+  transform: translateY(100%);
+}

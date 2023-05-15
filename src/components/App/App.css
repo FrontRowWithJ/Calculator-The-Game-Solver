@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-color: antiquewhite;
+}
+
+.App > .top {
+  display: flex;
+  width: 100%;
+  flex-grow: 1;
+}
+
+.App > section {
+  width: 100%;
+}
+
+.App > .middle {
+  display: flex;
+  width: fit-content;
+  gap: 1rem;
+  margin: 1rem auto;
+}
+
+.App > .bottom {
+  border-top: 2px solid gray;
+  display: flex;
+  justify-content: center;
+}
+
+.App > .bottom > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  gap: 2rem;
+}

@@ -1,0 +1,43 @@
+.seven-segment-display {
+  display: grid;
+  grid-template-rows: 1fr;
+  background-color: #a6b7a4;
+  padding: 1rem;
+  border-radius: 0 0 1rem 1rem;
+  position: relative;
+  width: fit-content;
+  margin-top: 2.5rem;
+  height: fit-content;
+}
+
+.seven-segment-display .label {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-transform: uppercase;
+  background-color: #3a3c3b;
+  color: #fff;
+  border-radius: 1rem 1rem 0 0;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -0.5rem;
+  padding: 0 0.5rem;
+  font-weight: bold;
+  font-size: 1rem;
+  width: 100%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  
+}
+
+.seven-segment-display input {
+  width: 0;
+  height: 0;
+  border: none;
+  outline: none;
+  opacity: 0;
+  z-index: -1;
+}

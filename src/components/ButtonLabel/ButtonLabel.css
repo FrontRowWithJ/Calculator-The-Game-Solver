@@ -1,0 +1,14 @@
+.number-2-label {
+  position: absolute;
+  width: 50%;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  background-color: transparent;
+  color: white;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
