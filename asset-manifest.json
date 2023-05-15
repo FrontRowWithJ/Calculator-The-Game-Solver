@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/calculator-the-game-solver/static/css/main.111b3979.css",
+    "main.js": "/calculator-the-game-solver/static/js/main.39eadbf1.js",
+    "index.html": "/calculator-the-game-solver/index.html",
+    "main.111b3979.css.map": "/calculator-the-game-solver/static/css/main.111b3979.css.map",
+    "main.39eadbf1.js.map": "/calculator-the-game-solver/static/js/main.39eadbf1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.111b3979.css",
+    "static/js/main.39eadbf1.js"
+  ]
+}
