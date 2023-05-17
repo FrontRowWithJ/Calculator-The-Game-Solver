@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Calculator-The-Game-Solver/static/css/main.111b3979.css",
+    "main.css": "/Calculator-The-Game-Solver/static/css/main.659357ff.css",
     "main.js": "/Calculator-The-Game-Solver/static/js/main.39eadbf1.js",
     "index.html": "/Calculator-The-Game-Solver/index.html",
-    "main.111b3979.css.map": "/Calculator-The-Game-Solver/static/css/main.111b3979.css.map",
+    "main.659357ff.css.map": "/Calculator-The-Game-Solver/static/css/main.659357ff.css.map",
     "main.39eadbf1.js.map": "/Calculator-The-Game-Solver/static/js/main.39eadbf1.js.map"
   },
   "entrypoints": [
-    "static/css/main.111b3979.css",
+    "static/css/main.659357ff.css",
     "static/js/main.39eadbf1.js"
   ]
 }
